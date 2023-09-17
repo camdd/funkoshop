@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Funkoshop | Descripción item </title>
 </head>
 <body>
     <header> <!-- Inicio header -->
         <nav>
-            <a href="index.html"><img src="./img/branding/logo_light_horizontal.svg" alt="logotipo marca funkoshop"></a>
+            <a href="../index.html"><img src="../img/branding/logo_light_horizontal.svg" alt="logotipo marca funkoshop"></a>
             <ul>
                 <li>
-                    <a href="./pages/shop.html">Shop</a>
+                    <a href="./shop.html">Shop</a>
                 </li>
                 <li>
-                    <a href="./pages/contact.html">Contacto</a>
+                    <a href="./contact.html">Contacto</a>
                 </li>
                 <li>
-                    <a href="./pages/login.html">Login</a>
+                    <a href="./login.html">Login</a>
                 </li>
                 <li>
-                    <a href="./pages/cart.html">
-                        <img src="./img/icons/cart-icon.svg" alt="icono de carrito">
+                    <a href="./cart.html">
+                        <img src="../img/icons/cart-icon.svg" alt="icono de carrito">
                     </a>
                 </li>
             </ul>
@@ -29,7 +29,57 @@
     </header> <!-- Fin header -->
 
     <main>
-        
+        <section> <!-- Detalle item-->
+            <img src="../img/star-wars/baby-yoda-1.webp" alt=" figura coleccionable funko de grogu the mandalorian">
+            <div id="item-detail">
+                <p>STAR WARS</p>
+                <h3>BABY YODA BLUEBALL</h3>
+                <p>Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada </p>
+                <p>1799,99</p>
+                <label for="cantidad"></label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="5">
+                <button>agregar al carrito</button>
+            </div>
+
+        </section>
+        <section> <!-- Sección Slider de Productos relacionados-->
+            <h2>Productos relacionados</h2>
+            <div id="slides">
+                <div class="item"> <!-- Item 1 star wars-->
+                    <a href="">
+                        <img src="../img/star-wars/trooper-1.webp" alt="funko stormtrooper star wars">
+                        <div class="info">
+                            <p>STAR WARS</p>
+                            <h4>STORMTROOPER LIGHTSABER</h4>
+                            <p>$1799,99</p>
+                            <p>3 CUOTAS SIN INTERÉS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item"> <!-- Item 2 pokemon-->
+                    <a href="">
+                        <img src="../img/pokemon/pidgeotto-1.webp" alt="funko pidgeotto pokemon">
+                        <div class="info">
+                            <p>POKEMON</p>
+                            <h4>PIDGEOTTO</h4>
+                            <p>$1799,99</p>
+                            <p>3 CUOTAS SIN INTERÉS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item"> <!-- Item 3 harry potter-->
+                    <a href="">
+                        <img src="../img/harry-potter/luna-1.webp" alt="">
+                        <div class="info">
+                            <p>HARRY POTTER</p>
+                            <h4>LUNA LOVEGOOD LION MASK</h4>
+                            <p>$1799,99</p>
+                            <p>3 CUOTAS SIN INTERÉS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -37,19 +87,19 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="./pages/shop.html"> SHOP </a>
+                        <a href="./shop.html"> SHOP </a>
                     </li>
                     <li>
-                        <a href="./pages/register.html">REGISTRARME </a>
+                        <a href="./register.html">REGISTRARME </a>
                     </li>
                     <li>
-                        <a href="./pages/login.html">LOGIN </a>
+                        <a href="./login.html">LOGIN </a>
                     </li>
                     <li>
-                        <a href="./pages/contact.html">CONTACTO</a>
+                        <a href="./contact.html">CONTACTO</a>
                     </li>
                 </ul>
-                <img src="./img/branding/isotype.svg" alt="isotipo de la marca funkoshop">
+                <img src="../img/branding/isotype.svg" alt="isotipo de la marca funkoshop">
             </nav>
         </div>
         <p>All rights reserved 2023 - Funkoshop &copy;</p>
