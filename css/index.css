@@ -4,9 +4,110 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    color: #1F1F1F;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
 }
 
 button {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
+}
+
+ul, ol {
+    list-style-type: none;
+
+}
+ 
+p {
+    font-size: 1.8em;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #30343F;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 3.6rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    max-width: 300px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar__link {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    display: inline-block;
+    transition: background .3s ease-in-out;
+    position: relative;
+}
+
+.navbar__link:hover {
+    background: #FF4848;
+}
+
+
+.with-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.with-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #30343F;
+    width: 300px;
+}
+
+
+.submenu__link {
+    display: block;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    font-size: medium;
+    transition: background .3s ease-in-out;
+}
+
+.submenu__link:hover {
+    background-color: #FF4848;
 }
