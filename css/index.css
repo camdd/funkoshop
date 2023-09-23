@@ -306,6 +306,23 @@ header {
     font-weight: 700;
 }
 
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #30343F;
+    padding: 6.8rem;
+    color:#FFFFFF;
+}
+
+.footer__copy {
+    text-align: center;
+    margin-top: 3.6rem;
+}
+
+
+/*ANIMATIONS*/
 @keyframes fade {
     0% {
         opacity: 0;
@@ -315,4 +332,3 @@ header {
         opacity: 1;
     }
 }
-
