@@ -332,3 +332,71 @@ header {
         opacity: 1;
     }
 }
+
+
+
+/*SHOP PAGE*/
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+/* .shop__list {
+    display
+} */
+
+.search-bar {
+    display: flex;
+    gap: 3.6rem;
+    padding: 6.8rem 0;
+
+}
+
+.search-bar__name {
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+.search-bar__text {
+    height: 2.6rem;
+    margin-bottom: 8%;
+    width: 16rem;
+}
+
+.search-bar__sort {
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+.search-bar__sort-options {
+    height: 2.6rem;
+    margin-bottom: 8%;
+    width: 16rem;
+}
+
+.search-bar__price {
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+.search-bar__price-range {
+    height: 2.6rem;
+    margin-bottom: 8%;
+    width: 16rem;
+}
+
+.search-bar__filter {
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+.search-bar__filter-options {
+    height: 2.6rem;
+    width: 16rem;
+    font-size: medium;
+    margin-bottom: 3%;
+}
